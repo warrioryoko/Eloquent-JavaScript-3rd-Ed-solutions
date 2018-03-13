@@ -5,5 +5,5 @@
 var output = '';
 var rows = 7;
 for (var i = 0; i < rows; i++) {
-  console.log(output += '#');
+  console.log(output += '#'); /*Each iteration, the output string will have an additional '#'*/
 }
