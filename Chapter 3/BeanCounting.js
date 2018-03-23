@@ -1,10 +1,10 @@
  /*Written by Ron Yonker, Wednesday, March 21st 2018*/
 
 function countChar(input, testChar) {
-  let count = 0; /*How many times the \'91testChar\'92 appears in the string \'91input\'92*/
-  for (let i = 0; i < input.length; i++) { /*Take advantage of the fact strings are also arrays to loop across the string, \'91input\'92*/\
+  let count = 0; /*How many times the 'testChar' appears in the string 'input'*/
+  for (let i = 0; i < input.length; i++) { /*Take advantage of the fact strings are also arrays to loop across the string, 'input'*/
     if (input[i] == testChar) {
-      count += 1; /*Add to count each time the \'91testChar\'92 appears, as you loop across the string*/
+      count += 1; /*Add to count each time the 'testChar' appears, as you loop across the string*/
     }
   }
   return count;
